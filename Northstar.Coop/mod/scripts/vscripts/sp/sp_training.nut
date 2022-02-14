@@ -4384,7 +4384,7 @@ void function Training_MeetOG( entity player )
 
 		// load next level
 		// NOTE this does a screen fade already
-		PickStartPoint( "sp_crashsite", "LevelStart" )
+		Coop_LoadMapFromStartPoint("sp_crashsite",0)
 	}
 
 	// don't ever progress from here to the dev functions beyond
