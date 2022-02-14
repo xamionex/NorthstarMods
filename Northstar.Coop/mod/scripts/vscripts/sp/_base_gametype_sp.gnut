@@ -259,7 +259,7 @@ void function TryGameModeAnnouncement( entity player )
 
 }
 
-void function Coop_LoadMapFromStartPoint(string mapname,int startindex)
+void function Coop_LoadMapFromStartPoint(string mapName,int startindex)
 {
 	ExecuteLoadingClientCommands_SetStartPoint( mapName, startindex )
 	ServerCommand( "map " + mapName )
