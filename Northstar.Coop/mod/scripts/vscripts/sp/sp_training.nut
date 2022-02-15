@@ -4383,7 +4383,7 @@ void function Training_MeetOG( entity player )
 		thread OutroDifficultyPopup( player, 2.5 )
 
 		// load next level
-		GameRules_ChangeMap( "sp_crashsite", GAMETYPE )
+		GameRules_ChangeMap( mapName, GAMETYPE )
 
 	}
 
